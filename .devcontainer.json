@@ -3,6 +3,10 @@
     "service": "demo",
     "workspaceFolder": "/workspaces/azureplaylists-demo",
     "forwardPorts": [8000],
-    "extensions": ["ms-python.python"],
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    },
     "onCreateCommand": "/usr/bin/env bash /workspaces/azureplaylists-demo/install-deps.sh"
 }
